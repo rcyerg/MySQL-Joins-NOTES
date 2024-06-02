@@ -459,11 +459,11 @@ values.
 
 </br>
 </br>
-<img src=Joins_With_Using_Keyword_Table_1.PNG width=200/img>
+<img src=images/Joins_With_Using_Keyword_Table_1.PNG width=200/img>
 </br>
 
 </br>
-<img src=Joins_With_Using_Keyword_Table_2.PNG width=200/img>
+<img src=images/Joins_With_Using_Keyword_Table_2.PNG width=200/img>
 </br>
 </br>
 

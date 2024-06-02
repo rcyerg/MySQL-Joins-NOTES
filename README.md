@@ -18,9 +18,12 @@
 - Joins tables based on relationships
 - Operators: '**=**' , '**>**', '**<**', '**<=**', '**>=**'
 
+</br>
+</br>
 <img src=images/Inner_Join.PNG width=400/img>
 </br>
 </br>
+
 **➤ Syntax** 
 
 - Implicit Syntax

@@ -20,7 +20,7 @@
 
 <img src=images/Inner_Join.PNG width=400/img>
 
-**Syntax** 
+**▶Syntax** 
 
 - Implicit Syntax
 ```
@@ -57,7 +57,7 @@ values.
 
 <img src=images/Left_Join.PNG width=400/img>
 
-**Syntax**
+**▶Syntax**
 ```
   SELECT t1.ID, t1.Value,
          t2.ID, t2.Value
@@ -75,7 +75,7 @@ values.
 
 <img src=images/Right_Join.PNG width=400/img>
 
-**Syntax**
+**▶Syntax**
 ```
   SELECT t1. ID, t1.Value
        t2.ID, t2.Value
@@ -96,7 +96,7 @@ values.
 
 <img src=images/Full_Outer_Join.PNG width=400/img>
 
-**Syntax**
+**▶Syntax**
 ```
    SELECT t1.ID, t1.Value,
           t2.ID, t2.Value

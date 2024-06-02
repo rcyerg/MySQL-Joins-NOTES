@@ -8,6 +8,8 @@
 - Join tables based on relationships
 - Operators: = > < <= >=
 
+<img src=images/Inner_Join.PNG width=400/img>
+
 ##### **Syntax** 
 
 - Implicit Syntax
@@ -20,7 +22,7 @@
    FROM t1 <br>
    INNER JOIN t2 ON t1.ID=t2.ID;
 
-<img src=images/Inner_Join.PNG width=400/img>
+<img src=images/Inner_Join_Table.PNG width=400/img>
 
 ***
 
@@ -28,9 +30,9 @@
 
 > **Three Types of Outer Join** <br>
 
-- Left Outer Join (*Same as 'Left Join'*)
-- Right Outer Join (*Same as 'Right Join'*)
-- Full Outer Join (*MySQL does not support full outer join syntax*) <br>
+- **Left Outer Join** (*Same as 'Left Join'*)
+- **Right Outer Join** (*Same as 'Right Join'*)
+- **Full Outer Join** (*MySQL does not support full outer join syntax*) <br>
 
 #### ◆ LEFT JOIN
 
@@ -47,7 +49,9 @@ values. <br>
   FROM t1 <br>
   LEFT JOIN t2 ON t1.ID = t2.ID;
 
+<img src=images/Left_Join_Table.PNG width=400/img>
 
+***
 
 
 

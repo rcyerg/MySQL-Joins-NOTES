@@ -1,6 +1,13 @@
 
 # NOTES ON JOINS
 
+## CONTENTS
+
+- [INNER JOIN](#inner-join)
+- [OUTER JOINS](#outer-joins)
+ - [LEFT OUTER JOIN](#left-outer-join)
+ - [RIGHT OUTER JOIN](#right-outer-join) 
+
 #### ◆ INNER JOIN
 
 - Returns rows when there is at least one match in both tables

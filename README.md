@@ -251,7 +251,6 @@ values.
    INNER JOIN Table2 ON Table1.ID = Table2.ID
 ```
 </br>
-
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 </br>
 

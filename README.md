@@ -30,13 +30,13 @@
 
 - *Implicit Syntax*
 ```
-   SELECT t1.*, t2.\*
+   SELECT t1.*, t2.*
    FROM Table1 t1, Table2 t2
    WHERE t1.ID = t2.ID;
 ```
 - *Explicit Syntax* (further examples use explicit)
 ```
-   SELECT t1.*, t2.\*
+   SELECT t1.*, t2.*
    FROM t1
    INNER JOIN t2 ON t1.ID=t2.ID;
 ```
@@ -69,34 +69,64 @@ right table.
 - If no columns matching in right table, returns NULL
 values.
 
+</br>
+</br>
 <img src=images/Left_Join.PNG width=400/img>
+</br>
+</br>
 
 **➤ Syntax**
+
+</br>
+
 ```
   SELECT t1.ID, t1.Value,
          t2.ID, t2.Value
   FROM t1
   LEFT JOIN t2 ON t1.ID = t2.ID;
 ```
+
+</br>
+
+**➤ Sample Output**
+
+</br>
+</br>
 <img src=images/Left_Join_Table.PNG width=400/img>
-
-
+</br>
+</br>
 
 #### ◆ **RIGHT OUTER JOIN**
 
 - Returns rows from the right table with matching rows from left
 - If no columns matching in left table, returns NULL values
 
+</br>
+</br>
 <img src=images/Right_Join.PNG width=400/img>
+</br>
+</br>
 
 **➤ Syntax**
+
+</br>
+
 ```
   SELECT t1. ID, t1.Value
        t2.ID, t2.Value
   FROM t1
   RIGHT JOIN t2 ON t1.ID = t2.ID;
 ```
+
+</br>
+
+**➤ Sample Output**
+
+</br>
+</br>
 <img src=images/Right_Join_Table.PNG width=400/img>
+</br>
+</br>
 
 #### ◆ FULL OUTER JOIN
 
@@ -108,9 +138,16 @@ values.
   > **Simulate FULL OUTER JOIN using LEFT** <br> 
   > **and RIGHT join with UNION**
 
+</br>
+</br>
 <img src=images/Full_Outer_Join.PNG width=400/img>
+</br>
+</br>
 
 **➤ Syntax**
+
+</br>
+
 ```
    SELECT t1.ID, t1.Value,
           t2.ID, t2.Value
@@ -122,10 +159,18 @@ values.
    FROM t1
    RIGHT JOIN t2 ON t1.ID = t2.ID;
 ```
+
+</br>
+
+**➤ Sample Output**
+
+</br>
+</br>
 <img src=images/Full_Outer_Join_Table.PNG width=400/img>
+</br>
+</br>
 
-
-
+***
 
 
 

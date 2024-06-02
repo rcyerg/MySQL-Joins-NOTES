@@ -1,7 +1,10 @@
 
-## CONTENTS
+## Table of Contents
 
+Notes on Inner Join
 - [Inner Join](#-inner-join)
+
+Notes on Outer Join Types
 - [Outer Join](#-outer-joins)
   - [Left Outer Join](#-left-outer-join)
   - [Right Outer Join](#-right-outer-join) 

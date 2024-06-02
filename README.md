@@ -30,6 +30,8 @@
 
 ### General Resources
 
+</br>
+
 ##### Example Tables Used For Inner Join -> Cross Join
 
 </br>

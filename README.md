@@ -24,7 +24,7 @@
    FROM Table1 t1 <br>
    INNER JOIN Table2 t2 ON t1.ID=t2.ID;
 
-<img src=images/Inner_Join.PNG width=200/img>
+<img src=images/Inner_Join.PNG width=400/img>
 
 #### ◆ OUTER JOIN <br>
 

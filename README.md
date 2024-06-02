@@ -9,8 +9,15 @@
 >   - [Left Outer Join](#-left-outer-join)
 >   - [Right Outer Join](#-right-outer-join) 
 >   - [Full Outer Join](#-full-outer-join)
+
 **Notes on Cross Join**
 > - [Cross Join](#-cross-join)
+
+**Notes on Equi and Non-Equi Joins**
+> - [Equi and Non-Equi Joins](#-equi-join-and-non-equi-join)
+>   - [Equi Join](#-equi-join)
+>   - [Non-Equi Join](#-non-equi-join)
+
 ***
 
 #### ❖ INNER JOIN

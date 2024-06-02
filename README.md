@@ -392,7 +392,7 @@ values.
 ```
 </br> 
 
-**➤ Given Tables**
+**➤ Example Tables**
 
 </br>
 </br>
@@ -429,14 +429,58 @@ values.
 
 ***
 
+### ❖ JOINS WITH USING KEYWORD
 
+- USING keyword simplifies syntax
+  for joining tables when the columns
+  have the same name in both tables
+- Keyword can be used with INNER or
+  OUTER joins
+- Can use more than one column with
+  keyword
 
+ </br>
 
+  **➤ General Syntax**
 
+</br>
 
+```
+   SELECT t1.*, t2.*
+   FROM Table1 t1
+   INNER JOIN Table2 t2 USING (ID, VALUE);
+```
+</br> 
 
+**➤ Example Tables**
 
+</br>
+</br>
+<img src=Joins_With_Using_Keyword_Table_1.PNG width=200/img>
+</br>
 
+</br>
+<img src=Joins_With_Using_Keyword_Table_2.PNG width=200/img>
+</br>
+</br>
 
+  **➤ Example Query**
 
+</br>
 
+```
+   SELECT t1.ID AS T1ID, t1.Value1 AS T1Value,
+          t2.ID T2ID, t2.Value2 AS T2Value
+   FROM Table1 t1
+   INNER JOIN Table2 t2 USING (ID);
+```
+</br>
+
+  **➤ Example Query Output**
+  
+</br>
+</br>
+<img src=images/Joins_With_Using_Keyword_Query_Result_Table.PNG width=400/img>
+</br>
+
+***

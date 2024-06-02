@@ -69,7 +69,7 @@ Joins_With_Using_Keyword_Query_Result_Table.PNG
 ```
 </br>
 
-**➤ Given [Tables](##general-resources---example-tables-used-for-inner-join---cross-join)**
+**➤ Given [Tables](#general-resources---example-tables-used-for-inner-join---cross-join)**
 
 </br>
 

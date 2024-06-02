@@ -1,4 +1,5 @@
-# MySQL-Joins-NOTES
+## MySQL-Joins-NOTES
+***
 
 ### JOINS
 
@@ -21,7 +22,9 @@
    FROM Table1 t1\
    INNER JOIN Table2 t2 ON t1.ID=t2.ID;
 
+
 #### OUTER JOIN
+
 
 **Three Types of Outer Join**
 

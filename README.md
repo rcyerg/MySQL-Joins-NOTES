@@ -20,7 +20,7 @@
 
 <img src=images/Inner_Join.PNG width=400/img>
 
-**▶Syntax** 
+**➤Syntax** 
 
 - Implicit Syntax
 ```

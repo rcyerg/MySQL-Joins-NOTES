@@ -248,7 +248,7 @@ values.
 ```
    SELECT Table1.*, Table2.*
    FROM Table1
-   INNER JOIN Table2 ON Table1.ID = Table2.ID
+   INNER JOIN Table2 ON Table1.ID = Table2.ID;
 ```
 </br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -269,7 +269,7 @@ values.
 ```
    SELECT Table1.*, Table2.*
    FROM Table1
-   INNER JOIN Table2 ON Table1.ID > Table2.ID
+   INNER JOIN Table2 ON Table1.ID > Table2.ID;
 ```
 </br>
 
@@ -369,3 +369,42 @@ values.
 </br>
 
 ***
+
+### ❖ NATURAL JOIN
+
+- A kind of join which joins two (or more)
+  tables based on all the columns in the two tables with
+  the same name
+- Can be either INNER or OUTER join
+
+ </br>
+
+  **➤ Syntax**
+
+</br>
+
+```
+   SELECT t1.*, t2.*
+   FROM Table1 t1
+   NATURAL JOIN Table2 t2;
+```
+</br> 
+
+**➤ Given Tables**
+
+</br>
+</br>
+<img src=images/Natural_Join_Inital_Table_1.PNG width=200/img>
+</br>
+</br>
+
+</br>
+</br>
+<img src=images/Natural_Join_Inital_Table_2.PNG width=200/img>
+</br>
+</br>
+
+> **Note the difference in 'Value' column naming**
+
+
+  

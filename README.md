@@ -11,7 +11,7 @@
 - Join tables based on relationships
 - Operators: = > < <= >=
 
-##### Syntax 
+##### **Syntax** 
 
 - Implicit Syntax
   - SELECT t1.*, t2.\*\
@@ -25,10 +25,11 @@
 
 
 #### OUTER JOIN
-
+\
+\
 
 **Three Types of Outer Join**
-
+\
 - Left Outer Join (*Same as 'Left Join'*)
 - Right Outer Join (*Same as 'Right Join'*)
 - Full Outer Join (*MySQL does not support full outer join syntax*)

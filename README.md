@@ -18,7 +18,7 @@
 - Joins tables based on relationships
 - Operators: '**=**' , '**>**', '**<**', '**<=**', '**>=**'
 
-<img src=images/Inner_Join.PNG width=400/img>
+<img src=images/Inner_Join.PNG width=400/img> <br>
 
 **➤ Syntax** 
 

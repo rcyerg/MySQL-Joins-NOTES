@@ -396,9 +396,7 @@ values.
 </br>
 <img src=images/Natural_Join_Inital_Table_1.PNG width=200/img>
 </br>
-</br>
 
-</br>
 </br>
 <img src=images/Natural_Join_Inital_Table_2.PNG width=200/img>
 </br>

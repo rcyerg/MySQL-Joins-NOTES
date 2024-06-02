@@ -56,7 +56,7 @@
 ```
 </br>
 
-**➤ Sample Query Output**
+**➤ Example Query Output**
 
 </br>
 </br>
@@ -104,7 +104,7 @@ values.
 
 </br>
 
-**➤ Sample Query Output**
+**➤ Example Query Output**
 
 </br>
 </br>
@@ -137,7 +137,7 @@ values.
 
 </br>
 
-**➤ Sample Query Output**
+**➤ Example Query Output**
 
 </br>
 </br>
@@ -180,7 +180,7 @@ values.
 
 </br>
 
-**➤ Sample Query Output**
+**➤ Example Query Output**
 
 </br>
 </br>
@@ -216,7 +216,7 @@ values.
 
 </br>
 
-**➤ Sample Query Output**
+**➤ Example Query Output**
 
 </br>
 </br>
@@ -327,7 +327,7 @@ values.
 ```
 </br> 
 
-**➤ Sample Query Output**
+**➤ Example Query Output**
 
 </br>
 </br>
@@ -419,7 +419,10 @@ values.
    NATURAL JOIN Table2 t2;
 ```
 </br>
+
+  **➤ Example Query Output**
   
+</br>
 </br>
 <img src=images/Natural_Join_Query_Result_Table.PNG width=400/img>
 </br>

@@ -85,6 +85,7 @@ values.
 - Returns rows from either table when conditions are met
 - Returns a null value when no match
 - MySQL does not support syntax <br>
+
   > **Simulate FULL OUTER JOIN using LEFT** <br> 
   > **and RIGHT join with UNION**
 

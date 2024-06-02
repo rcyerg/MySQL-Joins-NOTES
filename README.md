@@ -57,10 +57,10 @@ values.
 
 **Syntax**
 
-<code>SELECT t1.ID, t1.Value, <br>
-         t2.ID, t2.Value <br>
-   FROM t1 <br>
-   LEFT JOIN t2 ON t1.ID = t2.ID;</code>
+  SELECT t1.ID, t1.Value,
+         t2.ID, t2.Value
+  FROM t1
+  LEFT JOIN t2 ON t1.ID = t2.ID;
 
 <img src=images/Left_Join_Table.PNG width=400/img>
 

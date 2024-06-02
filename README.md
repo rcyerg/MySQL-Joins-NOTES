@@ -42,7 +42,7 @@
 
 </br>
 </br>
-<img src=images/Reused_Example_Table_2 width=400/img>
+<img src=images/Reused_Example_Table_2.PNG width=400/img>
 </br>
 </br>
 

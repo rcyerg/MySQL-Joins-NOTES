@@ -6,8 +6,8 @@ Notes on Inner Join
 
 Notes on Outer Join Types
 > - [Outer Join](#-outer-joins)
->  - [Left Outer Join](#-left-outer-join)
-?  - [Right Outer Join](#-right-outer-join) 
+>   - [Left Outer Join](#-left-outer-join)
+>   - [Right Outer Join](#-right-outer-join) 
 
 ***
 

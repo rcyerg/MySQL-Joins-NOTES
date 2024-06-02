@@ -58,7 +58,7 @@ Joins_With_Using_Keyword_Query_Result_Table.PNG
 - *Implicit General Syntax*
 ```
    SELECT Table1.*, Table2.*
-   FROM Table1 Table1, Table2 Table2
+   FROM Table1, Table2
    WHERE Table1.ID = Table2.ID;
 ```
 - *Explicit General Syntax* (further examples use explicit)
@@ -78,10 +78,10 @@ Joins_With_Using_Keyword_Query_Result_Table.PNG
 </br>
 
 ```
-  SELECT Table1.ID, Table1.Value,
-         Table2.ID, Table2.Value
-  FROM Table1
-  LEFT JOIN Table2 ON Table1.ID = Table2.ID;
+  SELECT Table1.ID AS T1ID, Table1.Value AS T1Value,
+         Table2.ID T2ID, Table2.Value AS T2Value
+  FROM Table1 t1
+  INNER JOIN Table2 ON Table1.ID = Table2.ID;
 ```
 
 
@@ -133,6 +133,23 @@ values.
 
 </br>
 
+**➤ Given [Tables](#general-resources---example-tables-used-for-inner-join---cross-join)**
+
+</br>
+
+**➤ Example Query**
+
+</br>
+
+```
+  SELECT Table1.ID AS T1ID, Table1.Value AS T1Value,
+         Table2.ID T2ID, Table2.Value AS T2Value
+  FROM Table1 t1
+  LEFT JOIN Table2 ON Table1.ID = Table2.ID;
+```
+
+</br>
+
 **➤ Example Query Output**
 
 </br>
@@ -161,6 +178,23 @@ values.
   SELECT Table1. ID, Table1.Value
        Table2.ID, Table2.Value
   FROM Table1
+  RIGHT JOIN Table2 ON Table1.ID = Table2.ID;
+```
+
+</br>
+
+**➤ Given [Tables](#general-resources---example-tables-used-for-inner-join---cross-join)**
+
+</br>
+
+**➤ Example Query**
+
+</br>
+
+```
+  SELECT Table1.ID AS T1ID, Table1.Value AS T1Value,
+         Table2.ID T2ID, Table2.Value AS T2Value
+  FROM Table1 t1
   RIGHT JOIN Table2 ON Table1.ID = Table2.ID;
 ```
 
@@ -209,6 +243,28 @@ values.
 
 </br>
 
+**➤ Given [Tables](#general-resources---example-tables-used-for-inner-join---cross-join)**
+
+</br>
+
+**➤ Example Query**
+
+</br>
+
+```
+  SELECT Table1.ID AS T1ID, Table1.Value AS T1Value,
+         Table2.ID T2ID, Table2.Value AS T2Value
+  FROM Table1 t1
+  LEFT JOIN Table2 ON Table1.ID = Table2.ID
+  UNION
+  SELECT Table1.ID AS T1ID, Table1.Value AS T1Value,
+         Table2.ID T2ID, Table2.Value AS T2Value
+  FROM Table1 t1
+  RIGHT JOIN Table2 ON Table1.ID = Table2.ID;
+```
+
+</br>
+
 **➤ Example Query Output**
 
 </br>
@@ -241,6 +297,23 @@ values.
           Table2.ID, Table2.Value
    FROM Table1
    CROSS JOIN Table2;
+```
+
+</br>
+
+**➤ Given [Tables](#general-resources---example-tables-used-for-inner-join---cross-join)**
+
+</br>
+
+**➤ Example Query**
+
+</br>
+
+```
+  SELECT Table1.ID AS T1ID, Table1.Value AS T1Value,
+         Table2.ID T2ID, Table2.Value AS T2Value
+  FROM Table1 t1
+  CROSS JOIN Table2 t2;
 ```
 
 </br>

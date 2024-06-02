@@ -1,8 +1,7 @@
 
-# MySQL-Joins-NOTES
+# NOTES ON JOINS
 
 #### ◆ INNER JOIN
-***
 
 - Returns rows when there is at least one match in both tables
 - Avoid ambiguity by qualifying each column with table name

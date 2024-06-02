@@ -4,7 +4,7 @@
 ### JOINS
 ***
 
-#### **&#9688;** INNER JOIN <br>
+#### **	&#x2714;** INNER JOIN <br>
 
 - Returns rows when there is at least one match in both tables
 - Avoid ambiguity by qualifying each column with table name

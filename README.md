@@ -406,5 +406,34 @@ values.
 
 > **Note the difference in 'Value' column naming**
 
+</br>
 
+  **➤ Example Query**
+
+</br>
+
+```
+   SELECT t1.ID AS T1ID, t1.Value1 AS T1Value,
+          t2.ID T2ID, t2.Value2 AS T2Value
+   FROM Table1 t1
+   NATURAL JOIN Table2 t2;
+```
+</br>
   
+</br>
+<img src=images/Natural_Join_Query_Result_Table.PNG width=400/img>
+</br>
+
+***
+
+
+
+
+
+
+
+
+
+
+
+

@@ -33,9 +33,9 @@
 - Right Outer Join (*Same as 'Right Join'*)
 - Full Outer Join (*MySQL does not support full outer join syntax*)
 
-Left Join returns all rows from left table with matching rows from 
+<p>Left Join returns all rows from left table with matching rows from 
 right table. If no columns matching in right table, returns NULL
-values. 
+values.<p/>
 
 
 

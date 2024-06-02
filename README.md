@@ -18,6 +18,9 @@
 >   - [Equi Join](#-equi-join)
 >   - [Non-Equi Join](#-non-equi-join)
 
+**Notes on Self Join**
+> - [Self Join](#-self-join)
+
 ***
 
 #### ❖ INNER JOIN
@@ -39,15 +42,15 @@
 
 - *Implicit Syntax*
 ```
-   SELECT t1.*, t2.*
-   FROM Table1 t1, Table2 t2
-   WHERE t1.ID = t2.ID;
+   SELECT Table1.*, Table2.*
+   FROM Table1 Table1, Table2 Table2
+   WHERE Table1.ID = Table2.ID;
 ```
 - *Explicit Syntax* (further examples use explicit)
 ```
-   SELECT t1.*, t2.*
-   FROM t1
-   INNER JOIN t2 ON t1.ID=t2.ID;
+   SELECT Table1.*, Table2.*
+   FROM Table1
+   INNER JOIN Table2 ON Table1.ID=Table2.ID;
 ```
 </br>
 
@@ -91,10 +94,10 @@ values.
 </br>
 
 ```
-  SELECT t1.ID, t1.Value,
-         t2.ID, t2.Value
-  FROM t1
-  LEFT JOIN t2 ON t1.ID = t2.ID;
+  SELECT Table1.ID, Table1.Value,
+         Table2.ID, Table2.Value
+  FROM Table1
+  LEFT JOIN Table2 ON Table1.ID = Table2.ID;
 ```
 
 </br>
@@ -124,10 +127,10 @@ values.
 </br>
 
 ```
-  SELECT t1. ID, t1.Value
-       t2.ID, t2.Value
-  FROM t1
-  RIGHT JOIN t2 ON t1.ID = t2.ID;
+  SELECT Table1. ID, Table1.Value
+       Table2.ID, Table2.Value
+  FROM Table1
+  RIGHT JOIN Table2 ON Table1.ID = Table2.ID;
 ```
 
 </br>
@@ -162,15 +165,15 @@ values.
 </br>
 
 ```
-   SELECT t1.ID, t1.Value,
-          t2.ID, t2.Value
-   FROM t1
-   LEFT JOIN t2 ON t1.ID = t2.ID
+   SELECT Table1.ID, Table1.Value,
+          Table2.ID, Table2.Value
+   FROM Table1
+   LEFT JOIN Table2 ON Table1.ID = Table2.ID
    UNION
-   SELECT t1.ID, t1.Value,
-          t2.ID, t2.Value
-   FROM t1
-   RIGHT JOIN t2 ON t1.ID = t2.ID;
+   SELECT Table1.ID, Table1.Value,
+          Table2.ID, Table2.Value
+   FROM Table1
+   RIGHT JOIN Table2 ON Table1.ID = Table2.ID;
 ```
 
 </br>
@@ -203,10 +206,10 @@ values.
 </br>
 
 ```
-   SELECT t1.ID, t1.Value
-          t2.ID, t2.Value
-   FROM t1
-   CROSS JOIN t2;
+   SELECT Table1.ID, Table1.Value
+          Table2.ID, Table2.Value
+   FROM Table1
+   CROSS JOIN Table2;
 ```
 
 </br>
@@ -225,6 +228,8 @@ values.
 
 ### ❖ EQUI JOIN and NON EQUI JOIN
 
+</br>
+
 > **Two types of Equi Joins**
 
 </br>
@@ -241,9 +246,9 @@ values.
 </br>
 
 ```
-   SELECT t1.*, t2.*
-   FROM t1
-   INNER JOIN t2 ON t1.ID = t2.ID
+   SELECT Table1.*, Table2.*
+   FROM Table1
+   INNER JOIN Table2 ON Table1.ID = Table2.ID
 ```
 </br>
 
@@ -253,18 +258,76 @@ values.
   **does not** use equality
   comparisons in the join-predicate
 
+</br>
 
+  **➤ Syntax**
 
+</br>
 
+```
+   SELECT Table1.*, Table2.*
+   FROM Table1
+   INNER JOIN Table2 ON Table1.ID > Table2.ID
+```
+</br>
 
+> **Can use OUTER JOIN in both the above syntaxes**
+> **as well**
 
+</br>
 
+***
 
+### ❖ SELF JOIN
 
+- A join in which a table is joined with itself
+- User must alias tables used in self join
+- User must qualify each column name used
+  in SELECT clauses with a table alias to
+  avoid ambiguity
 
+ </br>
 
+  **➤ Syntax**
 
+</br>
 
+```
+   SELECT t1.*, t2.*
+   FROM Table1 t1
+   INNER JOIN Table1 t2 ON t1.ID > t2.ID;
+```
+</br> 
 
+***Self Join Example***: 
 
+</br>
+
+ **➤ Given Table**
+
+</br>
+</br>
+<img src=images/Self_Join_Initial_Table.PNG width=400/img>
+</br>
+</br>
+
+ **➤ Given Query**
+
+</br>
+
+```
+   SELECT e1.Name EmployeeName, e2.name AS ManagerName
+   FROM Employee e1
+   INNER JOIN Employee e2
+   ON e1.ManagerID = e2.EmployeeID;
+```
+</br> 
+
+**➤ Sample Output**
+
+</br>
+</br>
+<img src=images/Self_Join_Result_Table_1.PNG width=400/img>
+</br>
+</br>
 

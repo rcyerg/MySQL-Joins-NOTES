@@ -1,7 +1,7 @@
 
 # MySQL-Joins-NOTES
 
-## JOINS
+### JOINS
 
 #### ◆ INNER JOIN
 

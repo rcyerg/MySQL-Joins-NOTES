@@ -192,7 +192,7 @@ values.
 
 - A Cartesian join that does not necessitate
   any condition to join
-- result set contains records that are multiples of
+- Result set contains records that are multiples of
   the record number of both the tables
 
 </br>
@@ -330,4 +330,5 @@ values.
 <img src=images/Self_Join_Result_Table_1.PNG width=400/img>
 </br>
 </br>
+
 

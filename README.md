@@ -1,10 +1,10 @@
 
 ## CONTENTS
 
-- [INNER JOIN](#inner-join)
-- [OUTER JOINS](#outer-joins)
- - [LEFT OUTER JOIN](#left-outer-join)
- - [RIGHT OUTER JOIN](#right-outer-join) 
+- [Inner Join](#-inner-join)
+- [Outer Join](#-outer-joins)
+  - [Left Outer Join](#-left-outer-join)
+  - [Right Outer Join](#-right-outer-join) 
 
 #### ◆ INNER JOIN
 
@@ -61,7 +61,7 @@ values.
 
 
 
-#### ◆ <**RIGHT OUTER JOIN**
+#### ◆ **RIGHT OUTER JOIN**
 
 - Returns rows from the right table with matching rows from left
 - If no columns matching in left table, returns NULL values

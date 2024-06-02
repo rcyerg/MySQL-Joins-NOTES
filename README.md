@@ -192,7 +192,7 @@ values.
 
 - A Cartesian join that does not necessitate
   any condition to join
-- result set contains records that are multiples of
+- Result set contains records that are multiples of
   the record number of both the tables
 
 </br>
@@ -250,6 +250,8 @@ values.
    FROM Table1
    INNER JOIN Table2 ON Table1.ID = Table2.ID
 ```
+</br>
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 </br>
 
 #### ◆ NON EQUI JOIN
@@ -331,3 +333,39 @@ values.
 </br>
 </br>
 
+**➤ Additional Query**
+
+</br>
+
+```
+   SELECT e1.Name EmployeeName, IFNULL(e2.name, 'Top Manager') AS ManagerName
+   FROM Employee e1
+   LEFT JOIN Employee e2
+   ON e1.ManagerID = e2.EmployeeID;
+```
+</br> 
+
+> **Above query desires to display 'Roger' under the**
+> **EmployeeName column.**
+
+</br>
+
+> **Utilizes the IFNULL() to replace the usually null**
+> **Field corresponding to 'Roger' under ManagerName to a**
+> **more accurate 'Top Manager' value.**
+
+</br> 
+
+**➤ Additional Query Output**
+
+</br>
+</br>
+<img src=images/Self_Join_Result_Table_2.PNG width=400/img>
+</br>
+</br>
+
+> **Self Join can also utilize Cross Join**
+
+</br>
+
+***

@@ -24,7 +24,7 @@
 
 ***
 
-###  OUTER JOINS
+###  ❖ OUTER JOINS
 
 > **Three Types of Outer Join** <br>
 

@@ -4,8 +4,8 @@
 ### JOINS
 ***
 
-#### Inner Join
-<br>
+#### Inner Join <br>
+
 - Returns rows when there is at least one match in both tables
 - Avoid ambiguity by qualifying each column with table name
 - Join tables based on relationships

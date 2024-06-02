@@ -9,6 +9,8 @@ Notes on Outer Join Types
   - [Left Outer Join](#-left-outer-join)
   - [Right Outer Join](#-right-outer-join) 
 
+***
+
 #### ◆ INNER JOIN
 
 - Returns rows when there is at least one match in both tables

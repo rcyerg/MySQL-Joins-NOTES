@@ -69,6 +69,11 @@ Joins_With_Using_Keyword_Query_Result_Table.PNG
 ```
 </br>
 
+**➤ Given [Tables](#general-resources-example-tables-used**
+
+
+
+
 **➤ Example Query Output**
 
 </br>

@@ -58,9 +58,11 @@
 
 - **Left Outer Join** (*Same as 'Left Join'*)
 - **Right Outer Join** (*Same as 'Right Join'*)
-- **Full Outer Join** (*MySQL does not support full outer join syntax*) <br>
+- **Full Outer Join** (*MySQL does not support full outer join syntax*)
 
-
+</br>
+</br>
+</br>
 
 #### ◆ **LEFT OUTER JOIN**
 

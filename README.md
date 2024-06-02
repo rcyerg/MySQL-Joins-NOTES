@@ -38,17 +38,17 @@
 </br>
 </br>
 
-**➤ Syntax** 
+**➤ General Syntax** 
 
 </br>
 
-- *Implicit Syntax*
+- *Implicit General Syntax*
 ```
    SELECT Table1.*, Table2.*
    FROM Table1 Table1, Table2 Table2
    WHERE Table1.ID = Table2.ID;
 ```
-- *Explicit Syntax* (further examples use explicit)
+- *Explicit General Syntax* (further examples use explicit)
 ```
    SELECT Table1.*, Table2.*
    FROM Table1
@@ -72,7 +72,7 @@
 
 - **Left Outer Join** (*Same as 'Left Join'*)
 - **Right Outer Join** (*Same as 'Right Join'*)
-- **Full Outer Join** (*MySQL does not support full outer join syntax*)
+- **Full Outer Join** (*MySQL does not support full outer join General Syntax*)
 
 </br>
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -
@@ -91,7 +91,7 @@ values.
 </br>
 </br>
 
-**➤ Syntax**
+**➤ General Syntax**
 
 </br>
 
@@ -124,7 +124,7 @@ values.
 </br>
 </br>
 
-**➤ Syntax**
+**➤ General Syntax**
 
 </br>
 
@@ -151,7 +151,7 @@ values.
 - Combines left outer join and right outer join
 - Returns rows from either table when conditions are met
 - Returns a null value when no match
-- MySQL does not support syntax <br>
+- MySQL does not support General Syntax <br>
 
   > **Simulate FULL OUTER JOIN using LEFT** <br> 
   > **and RIGHT join with UNION**
@@ -162,7 +162,7 @@ values.
 </br>
 </br>
 
-**➤ Syntax**
+**➤ General Syntax**
 
 </br>
 
@@ -203,7 +203,7 @@ values.
 </br>
 </br>
 
-**➤ Syntax**
+**➤ General Syntax**
 
 </br>
 
@@ -243,7 +243,7 @@ values.
 
 </br>
 
-  **➤ Syntax**
+  **➤ General Syntax**
 
 </br>
 
@@ -264,7 +264,7 @@ values.
 
 </br>
 
-  **➤ Syntax**
+  **➤ General Syntax**
 
 </br>
 
@@ -275,7 +275,7 @@ values.
 ```
 </br>
 
-> **Can use OUTER JOIN in both the above syntaxes**
+> **Can use OUTER JOIN in both the above General Syntaxes**
 > **as well**
 
 </br>
@@ -292,7 +292,7 @@ values.
 
  </br>
 
-  **➤ Syntax**
+  **➤ General Syntax**
 
 </br>
 
@@ -381,7 +381,7 @@ values.
 
  </br>
 
-  **➤ Syntax**
+  **➤ General Syntax**
 
 </br>
 

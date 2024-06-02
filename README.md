@@ -220,11 +220,12 @@ values.
 <img src=images/Cross_Join_Table_3.PNG width=200/img> 
 </br>
 </br>
+
 ***
 
 ### EQUI JOIN and NON EQUI JOIN
 
-#### EQUI JOIN 
+#### ❖ EQUI JOIN 
 
 - A comparator-based join that uses
   only equality comparisons in the join-predicate

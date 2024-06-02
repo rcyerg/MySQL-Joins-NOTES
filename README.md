@@ -49,8 +49,6 @@
 - Joins tables based on relationships
 - Operators: '**=**' , '**>**', '**<**', '**<=**', '**>=**'
 
-Joins_With_Using_Keyword_Query_Result_Table.PNG
-
 **➤ General Syntax** 
 
 </br>

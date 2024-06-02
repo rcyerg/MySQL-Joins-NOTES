@@ -6,7 +6,7 @@
 - Returns rows when there is at least one match in both tables
 - Avoid ambiguity by qualifying each column with table name
 - Joins tables based on relationships
-- Operators: = > < <= >=
+- Operators: '**=**' , '**>**', '**<**', '**<=**', '**>=**'
 
 <img src=images/Inner_Join.PNG width=400/img>
 
@@ -34,7 +34,9 @@
 - **Right Outer Join** (*Same as 'Right Join'*)
 - **Full Outer Join** (*MySQL does not support full outer join syntax*) <br>
 
-#### ◆ LEFT OUTER JOIN
+
+
+#### ◆ **LEFT OUTER JOIN**
 
 - Left Join returns all rows from left table with matching rows from 
 right table. 
@@ -52,9 +54,9 @@ values.
 
 <img src=images/Left_Join_Table.PNG width=400/img>
 
-***
 
-#### ◆ RIGHT OUTER JOIN
+
+#### ◆ <**RIGHT OUTER JOIN**
 
 - Returns rows from the right table with matching rows from left
 - If no columns matching in left table, returns NULL values
@@ -77,9 +79,9 @@ values.
 - Combines left outer join and right outer join
 - Returns rows from either table when conditions are met
 - Returns a null value when no match
-- MySQL does not support syntax
-  > Simulate FULL OUTER JOIN using LEFT <br> 
-  > and RIGHT join with UNION
+- MySQL does not support syntax <br>
+  > **Simulate FULL OUTER JOIN using LEFT** <br> 
+  > **and RIGHT join with UNION**
 
 
 

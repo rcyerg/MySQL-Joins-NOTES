@@ -206,7 +206,9 @@ values.
 
 </br>
 </br>
-<img src=images/Cross_Join_Table_1.PNG width=400/img><img src=images/Cross_Join_Table_2.PNG width=400/img><img src=images/Cross_Join_Table_3.PNG width=400/img> 
+<img src=images/Cross_Join_Table_1.PNG width=400/img>
+<img src=images/Cross_Join_Table_2.PNG width=400/img>
+<img src=images/Cross_Join_Table_3.PNG width=400/img> 
 </br>
 </br>
 

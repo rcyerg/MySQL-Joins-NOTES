@@ -252,6 +252,9 @@ values.
 ```
 </br>
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+</br>
+
 #### ◆ NON EQUI JOIN
 
 - A comparator-based join that

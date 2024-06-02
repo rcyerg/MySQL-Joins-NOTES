@@ -1,10 +1,10 @@
 
 # Table of Contents
 
-##### Notes on Inner Join
+**Notes on Inner Join**
 > - [Inner Join](#-inner-join)
 
-##### Notes on Outer Join Types
+**Notes on Outer Join Types**
 > - [Outer Join](#-outer-joins)
 >   - [Left Outer Join](#-left-outer-join)
 >   - [Right Outer Join](#-right-outer-join) 
@@ -20,7 +20,7 @@
 
 <img src=images/Inner_Join.PNG width=400/img>
 
-##### **Syntax** 
+**Syntax** 
 
 - Implicit Syntax
   - SELECT t1.*, t2.\* <br>
@@ -55,12 +55,12 @@ values.
 
 <img src=images/Left_Join.PNG width=400/img>
 
-##### **Syntax**
+**Syntax**
 
-- SELECT t1.ID, t1.Value, <br>
+<code>SELECT t1.ID, t1.Value, <br>
          t2.ID, t2.Value <br>
   FROM t1 <br>
-  LEFT JOIN t2 ON t1.ID = t2.ID;
+  LEFT JOIN t2 ON t1.ID = t2.ID;</code>
 
 <img src=images/Left_Join_Table.PNG width=400/img>
 

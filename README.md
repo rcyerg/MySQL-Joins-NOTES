@@ -28,6 +28,20 @@
 > - [Joins with USING keyword](#-joins-with-using-keyword)
 ***
 
+### General Resources - Example Tables Used For Inner Join -> Cross Join
+
+</br>
+</br>
+<img src=images/Reused_Example_Table_1.PNG width=200/img>
+</br>
+
+</br>
+<img src=images/Reused_Example_Table_2.PNG width=200/img>
+</br>
+</br>
+
+***
+
 #### ❖ INNER JOIN
 
 - Returns rows when there is at least one match in both tables
@@ -35,11 +49,7 @@
 - Joins tables based on relationships
 - Operators: '**=**' , '**>**', '**<**', '**<=**', '**>=**'
 
-</br>
-</br>
-<img src=images/Inner_Join.PNG width=400/img>
-</br>
-</br>
+Joins_With_Using_Keyword_Query_Result_Table.PNG
 
 **➤ General Syntax** 
 
@@ -58,6 +68,22 @@
    INNER JOIN Table2 ON Table1.ID=Table2.ID;
 ```
 </br>
+
+**➤ Given [Tables](#general-resources---example-tables-used-for-inner-join---cross-join)**
+
+</br>
+
+**➤ Example Query**
+
+</br>
+
+```
+  SELECT Table1.ID, Table1.Value,
+         Table2.ID, Table2.Value
+  FROM Table1
+  LEFT JOIN Table2 ON Table1.ID = Table2.ID;
+```
+
 
 **➤ Example Query Output**
 

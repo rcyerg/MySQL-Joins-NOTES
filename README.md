@@ -23,9 +23,9 @@
 
 <img src=images/Inner_Join.PNG width=400/img>
 
-###  OUTER JOINS
-
 ***
+
+###  OUTER JOINS
 
 > **Three Types of Outer Join** <br>
 

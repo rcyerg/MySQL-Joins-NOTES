@@ -61,7 +61,7 @@
 - **Full Outer Join** (*MySQL does not support full outer join syntax*)
 
 </br>
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
++ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  +
 </br>
 
 #### ◆ **LEFT OUTER JOIN**
@@ -96,7 +96,7 @@ values.
 </br>
 <img src=images/Left_Join_Table.PNG width=400/img>
 </br>
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
++ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
 </br>
 
 #### ◆ **RIGHT OUTER JOIN**
@@ -129,7 +129,7 @@ values.
 </br>
 <img src=images/Right_Join_Table.PNG width=400/img>
 </br>
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
++ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
 </br>
 
 #### ◆ FULL OUTER JOIN

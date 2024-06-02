@@ -21,6 +21,8 @@
 **Notes on Self Join**
 > - [Self Join](#-self-join)
 
+**Notes on Natural Join**
+> - [Natural Join](#-natural-join)
 ***
 
 #### ❖ INNER JOIN

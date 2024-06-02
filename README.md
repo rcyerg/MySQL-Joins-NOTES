@@ -28,6 +28,24 @@
 > - [Joins with USING keyword](#-joins-with-using-keyword)
 ***
 
+## General Resources
+
+##### Example Tables Used For Inner Join -> Cross Join
+
+</br>
+</br>
+<img src=images/Reused_Example_Table_1.PNG width=400/img>
+</br>
+</br>
+
+</br>
+</br>
+<img src=images/Reused_Example_Table_2 width=400/img>
+</br>
+</br>
+
+***
+
 #### ❖ INNER JOIN
 
 - Returns rows when there is at least one match in both tables
@@ -35,11 +53,7 @@
 - Joins tables based on relationships
 - Operators: '**=**' , '**>**', '**<**', '**<=**', '**>=**'
 
-</br>
-</br>
-<img src=images/Inner_Join.PNG width=400/img>
-</br>
-</br>
+Joins_With_Using_Keyword_Query_Result_Table.PNG
 
 **➤ General Syntax** 
 

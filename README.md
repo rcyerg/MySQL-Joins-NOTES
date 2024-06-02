@@ -1,11 +1,11 @@
 
 # MySQL-Joins-NOTES
 
-
 ## JOINS
-***
 
-#### ◆ INNER JOIN <br>
+#### ◆ INNER JOIN
+
+***
 
 - Returns rows when there is at least one match in both tables
 - Avoid ambiguity by qualifying each column with table name
@@ -26,7 +26,9 @@
 
 <img src=images/Inner_Join.PNG width=400/img>
 
-###  OUTER JOINS <br>
+###  OUTER JOINS
+
+***
 
 > **Three Types of Outer Join** <br>
 

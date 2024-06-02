@@ -69,9 +69,20 @@ Joins_With_Using_Keyword_Query_Result_Table.PNG
 ```
 </br>
 
-**➤ Given [Tables](#general-resources-example-tables-used**
+**➤ Given [Tables](##general-resources---example-tables-used-for-inner-join---cross-join)**
 
+</br>
 
+**➤ Example Query**
+
+</br>
+
+```
+  SELECT Table1.ID, Table1.Value,
+         Table2.ID, Table2.Value
+  FROM Table1
+  LEFT JOIN Table2 ON Table1.ID = Table2.ID;
+```
 
 
 **➤ Example Query Output**

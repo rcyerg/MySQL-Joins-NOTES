@@ -63,7 +63,6 @@
 </br>
 </br>
 </br>
-</br>
 
 #### ◆ **LEFT OUTER JOIN**
 
@@ -97,6 +96,7 @@ values.
 </br>
 <img src=images/Left_Join_Table.PNG width=400/img>
 </br>
+- - -
 </br>
 
 #### ◆ **RIGHT OUTER JOIN**

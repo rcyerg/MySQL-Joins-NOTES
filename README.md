@@ -224,7 +224,8 @@ values.
 ***
 
 ### ❖ EQUI JOIN and NON EQUI JOIN
-> **Two types of Equi Joins
+
+> **Two types of Equi Joins**
 
 </br>
 

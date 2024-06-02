@@ -1,9 +1,7 @@
 
-# NOTES ON JOINS
-
 ## CONTENTS
 
-- [INNER JOIN](#inner-join)
+- [INNER JOIN](#◆-inner-join)
 - [OUTER JOINS](#outer-joins)
  - [LEFT OUTER JOIN](#left-outer-join)
  - [RIGHT OUTER JOIN](#right-outer-join) 

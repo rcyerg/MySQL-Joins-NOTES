@@ -331,4 +331,39 @@ values.
 </br>
 </br>
 
+**➤ Additional Query**
 
+</br>
+
+```
+   SELECT e1.Name EmployeeName, IFNULL(e2.name, 'Top Manager') AS ManagerName
+   FROM Employee e1
+   LEFT JOIN Employee e2
+   ON e1.ManagerID = e2.EmployeeID;
+```
+</br> 
+
+> ** Above query desires to display 'Roger' under the **
+> **EmployeeName column.**
+
+</br>
+
+> ** Utilizes the IFNULL() to replace the usually null **
+> **Field corresponding to 'Roger' under ManagerName to a**
+> **more accurate 'Top Manager' value.**
+
+</br> 
+
+**➤ Additional Query Output**
+
+</br>
+</br>
+<img src=images/Self_Join_Result_Table_2.PNG width=400/img>
+</br>
+</br>
+
+> **Self Join can also utilize Cross Join
+
+</br>
+
+***

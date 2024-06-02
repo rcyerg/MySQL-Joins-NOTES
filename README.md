@@ -96,7 +96,7 @@ values.
 </br>
 <img src=images/Left_Join_Table.PNG width=400/img>
 </br>
-- - -
+- - -  - - -  - - -  - - -  - - -
 </br>
 
 #### ◆ **RIGHT OUTER JOIN**

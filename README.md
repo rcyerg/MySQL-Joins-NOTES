@@ -223,12 +223,17 @@ values.
 
 ***
 
-### EQUI JOIN and NON EQUI JOIN
+### ❖ EQUI JOIN and NON EQUI JOIN
+> **Two types of Equi Joins
 
-#### ❖ EQUI JOIN 
+</br>
+
+#### ◆ EQUI JOIN 
 
 - A comparator-based join that uses
   only equality comparisons in the join-predicate
+
+</br>
 
   **➤ Syntax**
 
@@ -241,7 +246,7 @@ values.
 ```
 </br>
 
-#### NON EQUI JOIN
+#### ◆ NON EQUI JOIN
 
 - A comparator-based join that
   **does not** use equality

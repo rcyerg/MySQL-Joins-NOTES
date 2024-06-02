@@ -11,7 +11,7 @@
 >   - [Full Outer Join](#-full-outer-join)
 ***
 
-#### ◆ INNER JOIN
+#### ❖ INNER JOIN
 
 - Returns rows when there is at least one match in both tables
 - Avoid ambiguity by qualifying each column with table name
@@ -175,6 +175,48 @@ values.
 </br>
 
 ***
+
+#### ❖ CROSS JOIN
+
+- A Cartesian join that does not necessitate
+  any condition to join
+- result set contains records that are multiples of
+  the record number of both the tables
+
+</br>
+</br>
+<img src=images/Cross_Join.PNG width=400/img>
+</br>
+</br>
+
+**➤ Syntax**
+
+</br>
+
+```
+   SELECT t1.ID, t1.Value
+          t2.ID, t2.Value
+   FROM t1
+   CROSS JOIN t2;
+```
+
+</br>
+
+**➤ Sample Output**
+
+</br>
+</br>
+<img src=images/Cross_Join_Table_1.PNG width=400/img><img src=images/Cross_Join_Table_2.PNG width=400/img><img src=images/Cross_Join_Table_3.PNG width=400/img> 
+</br>
+</br>
+
+
+
+
+
+
+
+
 
 
 

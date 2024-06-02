@@ -343,12 +343,12 @@ values.
 ```
 </br> 
 
-> ** Above query desires to display 'Roger' under the **
+> **Above query desires to display 'Roger' under the**
 > **EmployeeName column.**
 
 </br>
 
-> ** Utilizes the IFNULL() to replace the usually null **
+> **Utilizes the IFNULL() to replace the usually null**
 > **Field corresponding to 'Roger' under ManagerName to a**
 > **more accurate 'Top Manager' value.**
 
@@ -362,7 +362,7 @@ values.
 </br>
 </br>
 
-> **Self Join can also utilize Cross Join
+> **Self Join can also utilize Cross Join**
 
 </br>
 

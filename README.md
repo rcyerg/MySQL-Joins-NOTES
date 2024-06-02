@@ -5,7 +5,7 @@
 ***
 
 #### Inner Join
-
+\
 - Returns rows when there is at least one match in both tables
 - Avoid ambiguity by qualifying each column with table name
 - Join tables based on relationships
@@ -24,10 +24,10 @@
    INNER JOIN Table2 t2 ON t1.ID=t2.ID;
 
 
-#### OUTER JOIN\
-
+#### OUTER JOIN
+\
 **Three Types of Outer Join**
-
+\
 - Left Outer Join (*Same as 'Left Join'*)
 - Right Outer Join (*Same as 'Right Join'*)
 - Full Outer Join (*MySQL does not support full outer join syntax*)

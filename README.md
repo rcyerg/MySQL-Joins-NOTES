@@ -4,7 +4,7 @@
 ### JOINS
 ***
 
-#### 16; INNER JOIN <br>
+#### ► INNER JOIN <br>
 
 - Returns rows when there is at least one match in both tables
 - Avoid ambiguity by qualifying each column with table name

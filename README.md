@@ -41,13 +41,16 @@
    INNER JOIN t2 ON t1.ID=t2.ID;
 ```
 </br>
+
 **➤ Sample Output**
+
 </br>
 </br>
 </br>
 <img src=images/Inner_Join_Table.PNG width=400/img>
 </br>
 </br>
+
 ***
 
 ###  ❖ OUTER JOINS

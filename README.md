@@ -56,7 +56,7 @@
 ```
 </br>
 
-**➤ Sample Output**
+**➤ Sample Query Output**
 
 </br>
 </br>
@@ -104,7 +104,7 @@ values.
 
 </br>
 
-**➤ Sample Output**
+**➤ Sample Query Output**
 
 </br>
 </br>
@@ -137,7 +137,7 @@ values.
 
 </br>
 
-**➤ Sample Output**
+**➤ Sample Query Output**
 
 </br>
 </br>
@@ -180,7 +180,7 @@ values.
 
 </br>
 
-**➤ Sample Output**
+**➤ Sample Query Output**
 
 </br>
 </br>
@@ -216,7 +216,7 @@ values.
 
 </br>
 
-**➤ Sample Output**
+**➤ Sample Query Output**
 
 </br>
 </br>
@@ -327,7 +327,7 @@ values.
 ```
 </br> 
 
-**➤ Sample Output**
+**➤ Sample Query Output**
 
 </br>
 </br>
@@ -358,7 +358,7 @@ values.
 
 </br> 
 
-**➤ Additional Query Output**
+**➤ Additional Query Query Output**
 
 </br>
 </br>

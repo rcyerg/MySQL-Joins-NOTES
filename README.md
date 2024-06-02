@@ -28,13 +28,13 @@
 
 </br>
 
-- Implicit Syntax
+- *Implicit Syntax*
 ```
    SELECT t1.*, t2.\*
    FROM Table1 t1, Table2 t2
    WHERE t1.ID = t2.ID;
 ```
-- Explicit Syntax
+- *Explicit Syntax* (further examples use explicit)
 ```
    SELECT t1.*, t2.\*
    FROM t1
@@ -44,7 +44,6 @@
 
 **➤ Sample Output**
 
-</br>
 </br>
 </br>
 <img src=images/Inner_Join_Table.PNG width=400/img>

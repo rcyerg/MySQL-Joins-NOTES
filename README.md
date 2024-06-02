@@ -23,6 +23,9 @@
 
 **Notes on Natural Join**
 > - [Natural Join](#-natural-join)
+
+**Notes on Joins with USING keyword**
+> - [Joins with USING keyword](#-joins-with-using-keyword)
 ***
 
 #### ❖ INNER JOIN

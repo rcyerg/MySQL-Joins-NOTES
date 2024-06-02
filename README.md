@@ -36,13 +36,13 @@
 
 </br>
 </br>
-<img src=images/Reused_Example_Table_1.PNG width=400/img>
+<img src=images/Reused_Example_Table_1.PNG width=200/img>
 </br>
 </br>
 
 </br>
 </br>
-<img src=images/Reused_Example_Table_2.PNG width=400/img>
+<img src=images/Reused_Example_Table_2.PNG width=200/img>
 </br>
 </br>
 

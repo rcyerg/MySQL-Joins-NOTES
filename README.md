@@ -9,6 +9,8 @@
 >   - [Left Outer Join](#-left-outer-join)
 >   - [Right Outer Join](#-right-outer-join) 
 >   - [Full Outer Join](#-full-outer-join)
+**Notes on Cross Join**
+> - [Cross Join](#-cross-join)
 ***
 
 #### ❖ INNER JOIN
@@ -211,8 +213,31 @@ values.
 <img src=images/Cross_Join_Table_3.PNG width=200/img> 
 </br>
 </br>
+***
 
+### EQUI JOIN and NON EQUI JOIN
 
+#### EQUI JOIN 
+
+- A comparator-based join that uses
+  only equality comparisons in the join-predicate
+
+  **➤ Syntax**
+
+</br>
+
+```
+   SELECT t1.*, t2.*
+   FROM t1
+   INNER JOIN t2 ON t1.ID = t2.ID
+```
+</br>
+
+#### NON EQUI JOIN
+
+- A comparator-based join that
+  **does not** use equality
+  comparisons in the join-predicate
 
 
 

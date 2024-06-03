@@ -42,6 +42,8 @@
 
 ***
 
+</br>
+
 #### ❖ INNER JOIN
 
 - Returns rows when there is at least one match in both tables

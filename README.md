@@ -75,7 +75,7 @@
 ```
 </br>
 
-**➤ Given [Tables](#%EF%B8%8F-general-resources---example-tables-used-for-inner-join---cross-join-%EF%B8%8F)**
+**➤ Given These [Tables](#%EF%B8%8F-general-resources---example-tables-used-for-inner-join---cross-join-%EF%B8%8F)**
 
 </br>
 
@@ -139,7 +139,7 @@ values.
 
 </br>
 
-**➤ Given [Tables](#%EF%B8%8F-general-resources---example-tables-used-for-inner-join---cross-join-%EF%B8%8F)**
+**➤ Given These [Tables](#%EF%B8%8F-general-resources---example-tables-used-for-inner-join---cross-join-%EF%B8%8F)**
 
 </br>
 
@@ -189,7 +189,7 @@ values.
 
 </br>
 
-**➤ Given [Tables](#%EF%B8%8F-general-resources---example-tables-used-for-inner-join---cross-join-%EF%B8%8F)**
+**➤ Given These [Tables](#%EF%B8%8F-general-resources---example-tables-used-for-inner-join---cross-join-%EF%B8%8F)**
 
 </br>
 
@@ -249,7 +249,7 @@ values.
 
 </br>
 
-**➤ Given [Tables](#%EF%B8%8F-general-resources---example-tables-used-for-inner-join---cross-join-%EF%B8%8F)**
+**➤ Given These [Tables](#%EF%B8%8F-general-resources---example-tables-used-for-inner-join---cross-join-%EF%B8%8F)**
 
 </br>
 
@@ -307,7 +307,7 @@ values.
 
 </br>
 
-**➤ Given [Tables](#%EF%B8%8F-general-resources---example-tables-used-for-inner-join---cross-join-%EF%B8%8F)**
+**➤ Given These [Tables](#%EF%B8%8F-general-resources---example-tables-used-for-inner-join---cross-join-%EF%B8%8F)**
 
 </br>
 

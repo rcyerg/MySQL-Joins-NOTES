@@ -403,10 +403,6 @@ values.
 ```
 </br> 
 
-***Self Join Example***: 
-
-</br>
-
  **➤ Given Table**
 
 </br>

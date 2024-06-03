@@ -1,5 +1,5 @@
 
-# 📚 Table of Contents
+# 📚 Table of Contents 📚
 
 **Notes on Inner Join**
 > - [Inner Join](#-inner-join)

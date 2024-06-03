@@ -28,7 +28,7 @@
 > - [Joins with USING keyword](#-joins-with-using-keyword)
 ***
 
-### ⚠️ General Resources - Example Tables Used For Inner Join -> Cross Join
+### ⚠️ General Resources - Example Tables Used For Inner Join -> Cross Join ⚠️
 
 </br>
 </br>

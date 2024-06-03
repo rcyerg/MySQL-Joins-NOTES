@@ -49,7 +49,7 @@
 - Joins tables based on relationships
 - Operators: '**=**' , '**>**', '**<**', '**<=**', '**>=**'
 
-**➣ General Syntax** 
+**➤ General Syntax** 
 
 </br>
 
@@ -67,11 +67,11 @@
 ```
 </br>
 
-**➣ Given [Tables](#general-resources---example-tables-used-for-inner-join---cross-join)**
+**➤ Given [Tables](#general-resources---example-tables-used-for-inner-join---cross-join)**
 
 </br>
 
-**➣ Example Query**
+**➤ Example Query**
 
 </br>
 
@@ -83,7 +83,7 @@
 ```
 </br>
 
-**➣ Example Query Output**
+**➤ Example Query Output**
 
 </br>
 </br>
@@ -118,7 +118,7 @@ values.
 </br>
 </br>
 
-**➣ General Syntax**
+**➤ General Syntax**
 
 </br>
 
@@ -131,11 +131,11 @@ values.
 
 </br>
 
-**➣ Given [Tables](#general-resources---example-tables-used-for-inner-join---cross-join)**
+**➤ Given [Tables](#general-resources---example-tables-used-for-inner-join---cross-join)**
 
 </br>
 
-**➣ Example Query**
+**➤ Example Query**
 
 </br>
 
@@ -148,7 +148,7 @@ values.
 
 </br>
 
-**➣ Example Query Output**
+**➤ Example Query Output**
 
 </br>
 </br>
@@ -168,7 +168,7 @@ values.
 </br>
 </br>
 
-**➣ General Syntax**
+**➤ General Syntax**
 
 </br>
 
@@ -181,11 +181,11 @@ values.
 
 </br>
 
-**➣ Given [Tables](#general-resources---example-tables-used-for-inner-join---cross-join)**
+**➤ Given [Tables](#general-resources---example-tables-used-for-inner-join---cross-join)**
 
 </br>
 
-**➣ Example Query**
+**➤ Example Query**
 
 </br>
 
@@ -198,7 +198,7 @@ values.
 
 </br>
 
-**➣ Example Query Output**
+**➤ Example Query Output**
 
 </br>
 </br>
@@ -223,7 +223,7 @@ values.
 </br>
 </br>
 
-**➣ General Syntax**
+**➤ General Syntax**
 
 </br>
 
@@ -241,11 +241,11 @@ values.
 
 </br>
 
-**➣ Given [Tables](#general-resources---example-tables-used-for-inner-join---cross-join)**
+**➤ Given [Tables](#general-resources---example-tables-used-for-inner-join---cross-join)**
 
 </br>
 
-**➣ Example Query**
+**➤ Example Query**
 
 </br>
 
@@ -263,7 +263,7 @@ values.
 
 </br>
 
-**➣ Example Query Output**
+**➤ Example Query Output**
 
 </br>
 </br>
@@ -286,7 +286,7 @@ values.
 </br>
 </br>
 
-**➣ General Syntax**
+**➤ General Syntax**
 
 </br>
 
@@ -299,11 +299,11 @@ values.
 
 </br>
 
-**➣ Given [Tables](#general-resources---example-tables-used-for-inner-join---cross-join)**
+**➤ Given [Tables](#general-resources---example-tables-used-for-inner-join---cross-join)**
 
 </br>
 
-**➣ Example Query**
+**➤ Example Query**
 
 </br>
 
@@ -316,7 +316,7 @@ values.
 
 </br>
 
-**➣ Example Query Output**
+**➤ Example Query Output**
 
 </br>
 </br>
@@ -343,7 +343,7 @@ values.
 
 </br>
 
-  **➣ General Syntax**
+  **➤ General Syntax**
 
 </br>
 
@@ -364,7 +364,7 @@ values.
 
 </br>
 
-  **➣ General Syntax**
+  **➤ General Syntax**
 
 </br>
 
@@ -392,7 +392,7 @@ values.
 
  </br>
 
-  **➣ General Syntax**
+  **➤ General Syntax**
 
 </br>
 
@@ -407,7 +407,7 @@ values.
 
 </br>
 
- **➣ Given Table**
+ **➤ Given Table**
 
 </br>
 </br>
@@ -415,7 +415,7 @@ values.
 </br>
 </br>
 
- **➣ Given Query**
+ **➤ Given Query**
 
 </br>
 
@@ -427,7 +427,7 @@ values.
 ```
 </br> 
 
-**➣ Example Query Output**
+**➤ Example Query Output**
 
 </br>
 </br>
@@ -435,7 +435,7 @@ values.
 </br>
 </br>
 
-**➣ Additional Query**
+**➤ Additional Query**
 
 </br>
 
@@ -458,7 +458,7 @@ values.
 
 </br> 
 
-**➣ Additional Query Query Output**
+**➤ Additional Query Query Output**
 
 </br>
 </br>
@@ -481,7 +481,7 @@ values.
 
  </br>
 
-  **➣ General Syntax**
+  **➤ General Syntax**
 
 </br>
 
@@ -492,7 +492,7 @@ values.
 ```
 </br> 
 
-**➣ Example Tables**
+**➤ Example Tables**
 
 </br>
 </br>
@@ -508,7 +508,7 @@ values.
 
 </br>
 
-  **➣ Example Query**
+  **➤ Example Query**
 
 </br>
 
@@ -520,7 +520,7 @@ values.
 ```
 </br>
 
-  **➣ Example Query Output**
+  **➤ Example Query Output**
   
 </br>
 </br>
@@ -541,7 +541,7 @@ values.
 
  </br>
 
-  **➣ General Syntax**
+  **➤ General Syntax**
 
 </br>
 
@@ -552,7 +552,7 @@ values.
 ```
 </br> 
 
-**➣ Example Tables**
+**➤ Example Tables**
 
 </br>
 </br>
@@ -564,7 +564,7 @@ values.
 </br>
 </br>
 
-  **➣ Example Query**
+  **➤ Example Query**
 
 </br>
 
@@ -576,7 +576,7 @@ values.
 ```
 </br>
 
-  **➣ Example Query Output**
+  **➤ Example Query Output**
   
 </br>
 </br>

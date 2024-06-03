@@ -81,7 +81,7 @@
   FROM Table1 t1
   INNER JOIN Table2 ON Table1.ID = Table2.ID;
 ```
-
+</br>
 
 **➣ Example Query Output**
 
